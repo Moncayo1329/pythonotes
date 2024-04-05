@@ -4,7 +4,7 @@ def get_choices():
     player_choice = "rock"
     #list 
     options = ["rock" , "paper" , "scissor"]
-    computer_choice = random.choice(food)
+    computer_choice = random.choice(options)
     
     # Devolver el valor de computer_choice
     return computer_choice
@@ -38,3 +38,4 @@ import random
 
 food = ["pizza" , "carrots" , "eggs"] 
 dinner = random.choice(food) 
+
