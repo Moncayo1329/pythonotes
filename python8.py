@@ -6,3 +6,13 @@ set2 = {"roger"}
 
 intersect = set1 & set2 
 print(intersect)
+
+#functions 
+
+def hello():
+    print('hello')
+
+    hello() 
+
+    # Closures 
+    
